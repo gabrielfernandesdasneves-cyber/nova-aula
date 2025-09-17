@@ -2,26 +2,47 @@
    max-width: 1024px;
     height: 400px;
     background-image:url(../images/tega.jpeg);
-    background-position: 100%;
    display: flex;
    margin: 0 auto;
   background-size: cover;
-  align-items: center;
+  align-items:auto; 
+padding: 50px;
     
 
 }
 
 .text-banner{color: aliceblue;width: 530px;
-    height: 300px; padding-left: 50px;
+    height: 300px;
     
 
 }
 
-img{
-    width: 550px;
-    height: 330px;
-    padding-right: 50px;
-    margin: 0 auto;
+.foto{
+    width: 500px;
+    height: 300px;
+    
+ 
 
  }
-    
+
+@media screen and (max-width:1024px) {
+
+#banner{
+    flex-direction: column;
+    height: auto;
+  
+
+  
+}
+.text-banner{
+    width: 100%;
+    height: auto;
+ 
+}
+.foto{
+    width: 100%;
+    height: auto;
+
+
+}
+}
